@@ -126,9 +126,12 @@ body {
  text-align: center;
  background-size: cover;
  background-repeat: no-repeat;
-}
+ height: 600px;}
+
 .third-section h2{
   text-align: center;
+  padding-top: 141px;
+  padding-bottom: 40px;
 }
 
 .Pentagon-shapes{
@@ -141,4 +144,91 @@ margin-left: 200px;
 margin-top: 56px;
 position: relative;
 bottom: 20px;
+
 }
+.above-pent{
+display: flex;
+justify-content: space-between;
+flex-direction: row;
+align-items: center;
+margin-right: 200px;
+margin-left: 200px;
+position: relative;
+bottom: 250px;
+gap: 50px;
+padding-right: 25px;
+padding-left: 25px;
+}
+
+.above-pent-parg{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 200px;
+  margin-left: 200px;
+  position: relative;
+  bottom: 320px;
+  padding-right: 15px;
+  padding-left: 15px;
+  font-size: 10px;
+  text-align: center;
+}
+.contact-us h2{
+  text-align: center;
+  position: relative;
+  top: 55px;
+
+}
+
+.form{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  
+}
+
+.contact-us{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 80px;
+  
+}
+.reg-button2{
+  background-color: #ff6565;
+  border: none;
+  text-align: center;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: Source Sans Pro;
+  height: 44px;
+  width: 162px;
+  border-radius: 22px;
+  position: relative;
+  bottom: 50px;
+}
+
+.footer-background{
+  background-color: #071629;
+  background-size: contain;
+ height: 110px;
+}
+
+.contact-logos{
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  position: relative;
+  top: 40px;
+  margin-right: 90px;
+}
+
+.foot-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
+@media only screen and (max-width: 600px)
