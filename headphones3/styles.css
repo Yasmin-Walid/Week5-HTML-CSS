@@ -10,6 +10,8 @@ body {
 .Background {
   background-image: url(../images/headphones_hero_1.jpg);
   background-size: cover;
+  background-blend-mode: overlay;
+  background-position: center;
 }
 .nav-container {
   display: flex;
@@ -42,6 +44,7 @@ body {
   flex-direction: column;
   text-align: center;
   color: white;
+  width: 100%;
 }
 
 .hero h1 {
@@ -49,6 +52,7 @@ body {
   justify-content: center;
   margin-top: 200px;
   font-family: Source Sans Pro;
+  font-size: 25px;
 }
 
 .first-p {
@@ -58,6 +62,7 @@ body {
   position: relative;
   bottom: 35px;
   font-weight: 700;
+  font-size: 15px;
 }
 
 .reg-button {
@@ -74,7 +79,6 @@ body {
   font-size: 10px;
   color: #ffffff;
   font-family: Source Sans Pro;
-
 }
 .hero button {
   background-color: #ff6565;
@@ -84,6 +88,10 @@ body {
   font-weight: 700;
   font-family: Source Sans Pro;
 }
+
+/* Second section */
+
+
 .icons {
   display: flex;
   flex-wrap: wrap;
@@ -120,47 +128,47 @@ body {
   color: #071629;
   margin-bottom: 100px;
 }
-.third-section{
+.third-section {
   background-image: url(../images/headphones_hero_2.jpg);
- color: white;
- text-align: center;
- background-size: cover;
- background-repeat: no-repeat;
- height: 600px;}
+  color: white;
+  text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600px;
+}
 
-.third-section h2{
+.third-section h2 {
   text-align: center;
   padding-top: 141px;
   padding-bottom: 40px;
 }
 
-.Pentagon-shapes{
-display: flex;
-justify-content: space-between;
-flex-direction: row;
-align-items: center;
-margin-right: 200px;
-margin-left: 200px;
-margin-top: 56px;
-position: relative;
-bottom: 20px;
-
+.Pentagon-shapes {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 200px;
+  margin-left: 200px;
+  margin-top: 56px;
+  position: relative;
+  bottom: 20px;
 }
-.above-pent{
-display: flex;
-justify-content: space-between;
-flex-direction: row;
-align-items: center;
-margin-right: 200px;
-margin-left: 200px;
-position: relative;
-bottom: 250px;
-gap: 50px;
-padding-right: 25px;
-padding-left: 25px;
+.above-pent {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 200px;
+  margin-left: 200px;
+  position: relative;
+  bottom: 250px;
+  gap: 50px;
+  padding-right: 25px;
+  padding-left: 25px;
 }
 
-.above-pent-parg{
+.above-pent-parg {
   display: flex;
   justify-content: space-between;
   flex-direction: row;
@@ -174,28 +182,25 @@ padding-left: 25px;
   font-size: 10px;
   text-align: center;
 }
-.contact-us h2{
+.contact-us h2 {
   text-align: center;
   position: relative;
   top: 55px;
-
 }
 
-.form{
+.form {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
-  
 }
 
-.contact-us{
+.contact-us {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 80px;
-  
 }
-.reg-button2{
+.reg-button2 {
   background-color: #ff6565;
   border: none;
   text-align: center;
@@ -209,13 +214,13 @@ padding-left: 25px;
   bottom: 50px;
 }
 
-.footer-background{
+.footer-background {
   background-color: #071629;
   background-size: contain;
- height: 110px;
+  height: 110px;
 }
 
-.contact-logos{
+.contact-logos {
   display: flex;
   flex-direction: row;
   gap: 5px;
@@ -224,11 +229,38 @@ padding-left: 25px;
   margin-right: 90px;
 }
 
-.foot-container{
+.foot-container {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-
 }
 
-@media only screen and (max-width: 600px)
+@media only screen and (max-width: 480px) {
+  .nav-link {
+    display: none;
+  }
+
+  .nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 80px;
+  }
+
+  .Background {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-position: 35% 65%;
+    width: 100%;
+  }
+
+  .second-section {
+    display: flex;
+    justify-content: center;
+  }
+
+  .hero {
+    padding-right: 5px;
+  }
+}
