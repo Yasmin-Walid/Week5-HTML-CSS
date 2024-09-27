@@ -6,6 +6,9 @@ body {
   overflow-x: hidden;
   font-family: Source Sans Pro;
 }
+.header-nav{
+
+}
 
 .Background {
   background-image: url(../images/headphones_hero_1.jpg);
@@ -276,7 +279,6 @@ gap: 50px;
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: overlay;
-    background-position: 35% 65%;
     width: 100%;
   }
 
@@ -288,4 +290,43 @@ gap: 50px;
   .hero {
     padding-right: 5px;
   }
+
+.icons-cont{
+  display: flex;
+  flex-direction: column;
+
+  }
+
+  .footer-background{
+
+    height: max-content;
+  }
+.foot-container{
+  display: block;
+}
+
+.contact-logos{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  position:0;
+  margin-bottom: 50px;
+
+}
+
+input[type=text] {
+  width: 80vmin;
+  border: none;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+}
+
+.form{
+
+  gap: 10px;
+}
+
+.last-p{
+  padding-bottom: 10px;
+}
 }
